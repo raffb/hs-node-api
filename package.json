@@ -18,7 +18,7 @@
   },
   "author": "Stephen McElhinney",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "@babel/plugin-transform-async-to-generator": "^7.7.4",
     "@babel/plugin-transform-regenerator": "^7.7.5",
     "@babel/plugin-transform-runtime": "^7.7.6",
@@ -44,9 +44,7 @@
     "rollup-plugin-node-builtins": "^2.1.2",
     "rollup-plugin-node-globals": "^1.4.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-uglify": "^6.0.4"
-  },
-  "dependencies": {
+    "rollup-plugin-uglify": "^6.0.4",
     "@babel/core": "^7.7.7",
     "@babel/runtime": "^7.7.7",
     "axios": "^0.19.1",
